@@ -7,15 +7,17 @@
 
         <title>Kota Bandung</title>
 
-        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/style/style.css" />
     </head>
     <body>
         <header>
-            <h1>Bandung</h1>
-            <p>
-                Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus
-                menjadi ibu kota provinsi tersebut.
-            </p>
+            <div class="jumbotron">
+                <h1>Bandung</h1>
+                <p>
+                    Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus
+                    menjadi ibu kota provinsi tersebut.
+                </p>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#sejarah">Sejarah</a></li>
@@ -27,11 +29,12 @@
 
         <main>
             <div id="content">
-                <article id="sejarah">
+                <article id="sejarah" class="card">
                     <h2>Sejarah</h2>
                     <img
                         src="assets/image/history.jpg"
                         alt="Sejarah Kota Bandung"
+                        class="featured-image"
                     />
                     <p>
                         Kata Bandung berasal dari kata bendung atau bendungan
@@ -60,11 +63,12 @@
                     </p>
                 </article>
 
-                <article id="goegrafis">
+                <article id="geografis" class="card">
                     <h2>Geografis</h2>
                     <img
                         src="assets/image/geografis.jpg"
                         alt="Geografis Kota Bandung"
+                        class="featured-image"
                     />
                     <p>
                         Kota Bandung dikelilingi oleh pegunungan, sehingga
@@ -88,7 +92,7 @@
                     </p>
                 </article>
 
-                <article id="wisata">
+                <article id="wisata" class="card">
                     <h2>Wisata</h2>
                     <p>
                         Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah
@@ -104,6 +108,7 @@
                         <img
                             src="assets/image/farm-house.jpg"
                             alt="Farm House Lembang"
+                            class="featured-image"
                         />
                         <p>
                             Berada di jalur utama Bandung-Lembang, Farm House
@@ -117,7 +122,11 @@
 
                     <section>
                         <h3>Observatorium Bosscha</h3>
-                        <img src="assets/image/bosscha.jpg" alt="Bosscha" />
+                        <img
+                            src="assets/image/bosscha.jpg"
+                            alt="Bosscha"
+                            class="featured-image"
+                        />
                         <p>
                             Memiliki beberapa teleskop, antara lain, Refraktor
                             Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg,
@@ -138,7 +147,7 @@
             </div>
 
             <aside>
-                <article>
+                <article class="profile card">
                     <header>
                         <h2>Kota Bandung</h2>
                         <p>Kota Kembang Paris van Java</p>
